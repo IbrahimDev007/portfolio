@@ -27,6 +27,7 @@ function Experience() {
 					<img
 						src={exp.img}
 						className="inline object-cover w-20 h-20 mr-2 rounded-full"
+						alt={exp.title}
 					/>
 					<div className="text-xl p-4 m-2 font-bold text-white w-full ">
 						{exp.title}

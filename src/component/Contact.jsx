@@ -52,6 +52,7 @@ export default function Contact() {
 					>
 						{content.contact.socials.map((social, index) => {
 							return (
+								<a href={`${social.link}`}>
 								<LazyLoadImage
 									effect="blur"
 									className="m-2"
@@ -59,7 +60,9 @@ export default function Contact() {
 									key={index}
 									src={social.img}
 									alt={social.alt}
+									
 								/>
+								</a>
 							);
 						})}
 					</div>

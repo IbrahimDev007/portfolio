@@ -6,18 +6,17 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export const Work = () => {
-	;
 	useEffect(() => {
-
 		AOS.init();
 		AOS.refreshHard();
 	}, []);
 	return (
-		<div className="w-full bg-sky-900 text-white"
-		style={{
-			minHeight: "50vh",
-			background: "#091C29",
-		}}
+		<div
+			className="w-full bg-sky-900 text-white"
+			style={{
+				minHeight: "50vh",
+				background: "#091C29",
+			}}
 		>
 			{" "}
 			<div
@@ -33,15 +32,15 @@ export const Work = () => {
 							<div
 								key={index}
 								className="max-w-sm  border-rounded py-4 items-center justify-center flex flex-col overflow-hidden p-2 m-1  shadow-lg"
-							 >
-								<a href={`${"http://" + work.projectLink}`}>
-									<LazyLoadImage
-										src={work.img}
-										alt={work.alt}
-										className=" flex m-4 items-center justify-center object-cover  hover:bg-blue-900 "
-									   width='300px'
-									/>
-								</a>
+								data-aos="flip-left"
+							>
+								<LazyLoadImage
+									src={work.img}
+									alt={work.alt}
+									className=" flex m-4 items-center justify-center object-cover  hover:bg-indigo-700"
+									width="300px"
+								/>
+
 								<div className="p-6 p-4 flex  items-center flex-col ">
 									<div className="font-bold text-xl mb-2">
 										{work.projectName}
@@ -51,9 +50,7 @@ export const Work = () => {
 										<div className="flex items-center justify-between m-1 p-4">
 											<button
 												class=" text-white  w-17  h-6 flex  justify-center active:bg-sky-600 font-bold uppercase text-xs p-1 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-												
 												style={{
-													
 													backgroundColor: "#0c7d94",
 												}}
 												type="button"
@@ -63,7 +60,6 @@ export const Work = () => {
 											<button
 												class=" text-white w-17  h-6 flex  justify-center items-center  active:bg-sky-600 font-bold uppercase text-xs  p-2 rounded shadow hover:shadow-md outline-none focus:outline-none m-1 ease-linear transition-all duration-150"
 												style={{
-												
 													backgroundColor: "#0c7d94",
 												}}
 												type="button"

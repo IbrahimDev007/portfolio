@@ -53,47 +53,47 @@ export default {
 			item3: "js",
 		},
 	],
-	Experience:{
-		title:'Experience',
-		desc:"After two different fields experienced decided to explore where my passion added to web development and next to blockchain development.",
-	company:[
-     { 
-     img:'/assets/CPC.PNG',
-     title:'Comilla pest Control',
-	 experience:'4/Mo',
-	 Role:'Content-creator & Digital-Marketing'
-
+	Experience: {
+		title: "Experience",
+		desc: "After two different fields experienced decided to explore where my passion added to web development and next to blockchain development.",
+		company: [
+			{
+				img: "/assets/CPC.PNG",
+				title: "Comilla pest Control",
+				experience: "4/Mo",
+				Role: "Content-creator & Digital-Marketing",
+			},
+			{
+				img: "/assets/GM.PNG",
+				title: " Gaint Marketer",
+				experience: "10/Mo",
+				Role: "SEO-Specialist",
+			},
+		],
 	},
-	{ 
-		img:'/assets/GM.PNG',
-		 title:' Gaint Marketer',
-		 experience:'10/Mo',
-		 Role:'SEO-Specialist'
-	
-	}
-
-
-	]
-	},
-	contact: { 
+	contact: {
 		title: "Ping Me!",
 		desc: "Hey, I'm Ibrahim Khalil Ullah (B.Sc in C.S.E), working a long day in react I decided to explore myself to be enthusiastic about the job. I am very excited to accomplish a new challenge to prepare to fulfill blockchain development for future",
 		socials: [
 			{
 				alt: "facebook",
 				img: "/assets/facebook.png",
+				link: "https:www.facebook.com/lethal.boy",
 			},
 			{
 				alt: "github",
 				img: "/assets/github.png",
+				link: "https:github.com/IbrahimDev007",
 			},
 			{
 				alt: "link",
 				img: "/assets/link.png",
+				link: "https:www.linkedin.com/in/ibrahimdev",
 			},
 			{
 				alt: "gmail",
 				img: "/assets/gmail.png",
+				link: "mailto:ibrahimpc14@gmail.com",
 			},
 		],
 		img: "/assets/profile2.jpg",
