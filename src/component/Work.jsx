@@ -12,9 +12,8 @@ export const Work = () => {
 	}, []);
 	return (
 		<div
-			className="w-full bg-sky-900 text-white"
+			className="w-cover sm:w-full justify-center flex bg-sky-900 text-white"
 			style={{
-				minHeight: "50vh",
 				background: "#091C29",
 			}}
 		>
@@ -26,12 +25,12 @@ export const Work = () => {
 			>
 				<h1 className="text-5xl   font-dosis font-bold">Projects</h1>
 				<p className="text-white-600 text-2xl font-dosis mb-10">I have done</p>
-				<div className="flex justify-center items-center flex-row  ">
+				<div className="flex justify-center items-center  flex-wrap  ">
 					{content.work.map((work, index) => {
 						return (
 							<div
 								key={index}
-								className="max-w-sm  border-rounded py-4 items-center justify-center flex flex-col overflow-hidden p-2 m-1  shadow-lg"
+								className="max-w-sm  text-center border-rounded py-4 items-center justify-center flex flex-col overflow-hidden p-2 m-1  shadow-lg"
 								data-aos="flip-left"
 							>
 								<LazyLoadImage
@@ -55,7 +54,7 @@ export const Work = () => {
 												}}
 												type="button"
 											>
-												Demo
+												<a href={work.projectDemo}>Demo</a>
 											</button>
 											<button
 												class=" text-white w-17  h-6 flex  justify-center items-center  active:bg-sky-600 font-bold uppercase text-xs  p-2 rounded shadow hover:shadow-md outline-none focus:outline-none m-1 ease-linear transition-all duration-150"
@@ -64,7 +63,7 @@ export const Work = () => {
 												}}
 												type="button"
 											>
-												Code
+										<a href={work.PrjectCode}>Code</a>		
 											</button>
 										</div>
 										<div className="px-6 pb-2  flex itmes-center justify-center ">
