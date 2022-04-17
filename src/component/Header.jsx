@@ -96,10 +96,10 @@ export default function Header() {
     }}
   />
 			<div
-				className="w-full mx-auto flex flex-col md:flex-row-reverse items-center justify-between"
+				className="w-full mx-auto flex flex-col-reverse md:flex-row-reverse sm:flex-col-reverse items-center justify-between"
 				id="my"
 			>
-				<div className="h-full w-2/5 md:h-full w-5/5">
+				<div className="h-full w-4/12 ">
 					<LazyLoadImage src={content.header.img} efeect="blur" />
 				</div>
 				<div className="p-15 m-10 text-white font-dosis text-center">
