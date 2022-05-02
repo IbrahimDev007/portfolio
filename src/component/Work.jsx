@@ -54,7 +54,7 @@ export const Work = () => {
 												}}
 												type="button"
 											>
-												<a href={work.projectDemo}>Demo</a>
+												<a href={work.projectDemo}>{work.button1}</a>
 											</button>
 											<button
 												class=" text-white w-17  h-6 flex  justify-center items-center  active:bg-sky-600 font-bold uppercase text-xs  p-2 rounded shadow hover:shadow-md outline-none focus:outline-none m-1 ease-linear transition-all duration-150"
@@ -63,7 +63,7 @@ export const Work = () => {
 												}}
 												type="button"
 											>
-										<a href={work.PrjectCode}>Code</a>		
+										<a href={work.PrjectCode}>{work.button2}</a>		
 											</button>
 										</div>
 										<div className="px-6 pb-2  flex itmes-center justify-center ">
