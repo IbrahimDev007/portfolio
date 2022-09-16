@@ -106,7 +106,7 @@ export default {
 	],
 	Experience: {
 		title: "Experience",
-		desc: "After two different fields experienced decided to explore where my passion added to web development and next to web 3.0 and blockchain development.",
+		desc: "After two different fields experienced decided to explore where my passion added to web development and Ux/UI design.",
 		company: [
 			{
 				img: "/assets/CPC.PNG",
@@ -124,7 +124,7 @@ export default {
 	},
 	contact: {
 		title: "Ping Me!",
-		desc: "Hey, I'm Ibrahim Khalil Ullah (B.Sc in C.S.E), working a long day in react I decided to explore myself to be enthusiastic about the job. I am very excited to accomplish a new challenge to prepare to forntend focus full-stack Developer",
+		desc: "Hey, I'm Ibrahim Khalil Ullah (B.Sc in C.S.E), working a long day in react I decided to explore myself to be enthusiastic about the job. I am very excited to accomplish a new challenge to prepare to forntend focus UX/UI Designer",
 		socials: [
 			{
 				alt: "facebook",
@@ -183,6 +183,6 @@ export default {
 				alt: "js",
 			},
 		],
-		desc: " This  react.js work. In personal work, many languages c,c++, Python, PHP, java though never settle down at last js claim to mind which role the world, and here I go 😊  ",
+		desc: " This  react.js work. In personal work, many languages c,c++, Python, PHP, java though never settle down at last js claim to mind and I'm very much passionate at UI/UX design like prototyoe,wareframe ,mockup design, and here I go 😊  ",
 	},
 };
