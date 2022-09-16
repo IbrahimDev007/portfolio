@@ -28,7 +28,7 @@ export default {
 			button1:"Demo",
 			button2:"Code",
 			projectName: "Portfolio",
-			projectDemo: "https://personal-portfolio-007.netlify.app/",
+			projectDemo: "https://ibrahim-007.netlify.app/",
 			PrjectCode:"https://github.com/IbrahimDev007/portfolio",
 			desc: "Personal  Portfolio using React and Tailwind CSS ",
 			item: "React",
