@@ -99,8 +99,8 @@ export default {
 			PrjectCode:"https://www.behance.net/ibrahimpc1db6f",
 			desc: "exelent Figma Design  Dashbord And Preview",
 			item: "Figma",
-			item2: "Adobe xd",
-			item3: "Adobe Photoshop",
+			item2: "xd",
+			item3: "Photoshop",
 			
 		},
 	],
