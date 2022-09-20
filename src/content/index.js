@@ -167,16 +167,33 @@ export default {
 				alt: "tailwind",
 			},
 			{
-				img: "/assets/mongo.png",
-				alt: "Mongose",
+				img: "/assets/figma_logo.jpeg",
+				alt: "Figma",
 			},
 			{
-				img: "/assets/node.png",
-				alt: "Node.js",
+				img: "/assets/adobe_xd.png",
+				alt: "Adobe Xd",
+			},
+// 			{
+// 				img: "/assets/mongo.png",
+// 				alt: "Mongose",
+// 			},
+// 			{
+// 				img: "/assets/node.png",
+// 				alt: "Node.js",
+// 			},		
+			
+// 			{
+// 				img: "/assets/express.png",
+// 				alt: "express",
+// 			},
+			{
+				img: "/assets/js.png",
+				alt: "js",
 			},
 			{
-				img: "/assets/express.png",
-				alt: "express",
+				img: "/assets/js.png",
+				alt: "js",
 			},
 			{
 				img: "/assets/js.png",
