@@ -4,7 +4,7 @@ function Experience() {
 	return (
 		<>
 			<div
-				className="flex justify-center  p-10 items-center  w-full flex-col  bg-blue-900"
+				className="flex justify-center  p-10  w-full flex-col items-center bg-blue-900"
 				style={{
 					minHeight: "50vh",
 					background: "#091C29",
@@ -13,7 +13,7 @@ function Experience() {
 			>
 				<div className="text-5xl p-4 m-2 text-white font-bold">{content.Experience.title}</div>
 				<div className="text-lg p-2 w-3/5 text-white text-center">{content.Experience.desc}</div>
-				<div className="flex  flex-row p-2 m-1">
+				<div className="flex w-2/5 flex-row p-2 m-1">
 				{content.Experience.company.map((exp,indx)=>
 				
 				<div
@@ -34,6 +34,7 @@ function Experience() {
 					</div>
 					<div className="text-sm p-2 text-white w-full"><b>Preiod:</b>{exp.experience}</div>
 					<div className="text-sm  p-2 text-white  w-full"><b>Role:</b>{exp.Role}</div>
+					<div className="text-sm  p-2 text-white  w-full"><b>Desc:</b>{exp.desc}</div>
 				</div>
 				</div>
 				

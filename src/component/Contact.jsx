@@ -9,6 +9,47 @@ export default function Contact() {
 	useEffect(() => {
 		setAnimated(true);
 	}, []);
+	const [Registert, setRegistert] = useState({
+		name: "",
+		email: "",
+		text:"",
+	});
+
+	const handaleChangerEvent = (e) => {
+		let { name, value } = e.target;
+		return (
+			setRegistert({ ...Registert, [name]: value }), console.log(Registert)
+		);
+	};
+
+	const handaleSubmit = (e) => {
+		e.preventDefault();
+		let nameErr = "";	
+		let emailErr = "";
+		let emailRgex = RegExp(
+			/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+		);
+		
+		
+		if (!Registert.name) {
+			nameErr = "Name Is Not Valid";
+			console.log(nameErr);
+		} 
+		else if (!emailRgex.test(Registert.email)) {
+			emailErr = "email not valid";
+			console.log(emailErr);
+		}
+		
+		 else {
+		
+			localStorage.setItem('User',Registert)
+		
+			console.log("every thing all right");
+		}
+	};
+
+
+
 	return (
 		<div
 			className=" min-h-screen  flex justify-center items-center bg-white "
@@ -45,6 +86,66 @@ export default function Contact() {
 					>
 						{content.contact.desc}
 					</p>
+					<div>
+					<form action="post" onSubmit={handaleSubmit}>
+						<div className="mt-4">
+							<div>
+								<label className="text-white block">Name:</label>
+								<input
+									type="text"
+									name="name"
+									value={Registert.name}
+									onChange={handaleChangerEvent}
+									placeholder="Name"
+									className="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600"
+								/>
+							</div>
+							<div className="mt-4">
+								<label className="text-white block">
+									Email:
+								
+								</label>
+								<input
+									type="text"
+									placeholder="Email"
+									name="email"
+									value={Registert.email}
+									onChange={handaleChangerEvent}
+									className="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600"
+								/>
+							</div>
+							
+							<span className="text-sm text-red-400">
+								Please input valid Email!
+							</span>
+							<div className="mt-4">
+								<label className="text-white block">
+									Project Description:
+								</label>
+						
+								<textarea placeholder="Describe your project "
+									name="text"
+									value={Registert.text}
+									onChange={handaleChangerEvent}
+									className="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600"
+								>
+
+									</textarea>
+							</div>
+							<div className="flex">
+								<button
+									type="submit"
+									value="submit"
+									className="w-full px-6 py-2 mt-4 text-white bg-blue-600 rounded-lg hover:bg-blue-900"
+								>
+									Submit
+								</button>
+							</div>
+							
+						</div>
+					</form>
+
+					</div>
 					<div
 						className={`flex ${
 							animated ? "" : "translate-y-10 opacity-0"
