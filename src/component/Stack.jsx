@@ -26,7 +26,7 @@ export default function Stack() {
 			<p className="w-1112 md:max-w-xl p-1 text-xl text-center mt-10">
 				{content.stack.desc}
 			</p>
-			<div className="min-h-screen">
+			<div className="w-3/5 h-3/5 ">
 			
 				<div
 					id="carouselExampleIndicators"
@@ -46,19 +46,19 @@ export default function Stack() {
 					</ol>
 					<div className="carousel-inner">
 						<div className="carousel-item active">
-							<img className="d-block w-100" src="/assets/bluberr_moui.jpg" alt="First slide" />
+							<img className="d-block w-100 h-100" src="/assets/bluberr_moui.jpg" alt="First slide" />
 						</div>
 						<div className="carousel-item">
-							<img className="d-block w-100" src="/assets/landing_page_dex.png" alt="Second slide" />
+							<img className="d-block w-100  h-100" src="/assets/landing_page_dex.png" alt="Second slide" />
 						</div>
 						<div className="carousel-item">
-							<img className="d-block w-100" src="/assets/yoga_web.png" alt="third slide" />
+							<img className="d-block w-100  h-100" src="/assets/yoga_web.png" alt="third slide" />
 						</div>
 						<div className="carousel-item">
-							<img className="d-block w-100" src="/assets/Dashboard1.jpg" alt="Forth slide" />
+							<img className="d-block w-100  h-100" src="/assets/Dashboard1.jpg" alt="Forth slide" />
 						</div>
 						<div className="carousel-item">
-							<img className="d-block w-100" src="/assets/mobile_ui_music.jpg" alt="Fifth slide" />
+							<img className="d-block w-100 h-100" src="/assets/mobile_ui_music.jpg" alt="Fifth slide" />
 						</div>
 					</div>
 					<a

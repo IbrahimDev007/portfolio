@@ -42,8 +42,9 @@ export default function Contact() {
 		
 		 else {
 		
-			localStorage.setItem('User',Registert)
-		
+			localStorage.setItem('User',Registert);
+
+		setRegistert({...Registert,email:"",text:"",name:""});
 			console.log("every thing all right");
 		}
 	};
