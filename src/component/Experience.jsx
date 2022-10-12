@@ -17,7 +17,7 @@ function Experience() {
 				{content.Experience.company.map((exp,indx)=>
 				
 				<div
-					className="border-rounded  border-2 w-4/5 h-5/5 sm:w-full p-2 m-1  border-green-700 "
+					className="border-rounded  border-2 w-5/5 h-5/5 sm:w-full p-2 m-1  border-green-700 "
 					data-aos="flip-left"
 					style={{
 						backgroundImage:
@@ -29,12 +29,12 @@ function Experience() {
 						className="inline object-cover w-20 h-20 mr-2 rounded-full"
 						alt={exp.title}
 					/>
-					<div className="text-xl p-4 m-2 font-bold text-white w-full ">
+					<div className="text-xl p-1 m-1 font-bold text-white w-full ">
 						{exp.title}
 					</div>
-					<div className="text-sm p-2 text-white w-full"><b>Preiod:</b>{exp.experience}</div>
-					<div className="text-sm  p-2 text-white  w-full"><b>Role:</b>{exp.Role}</div>
-					<div className="text-sm  p-2 text-white  w-full"><b>Desc:</b>{exp.desc}</div>
+					<div className="text-sm p-1 text-white w-full"><b>Preiod:</b>{exp.experience}</div>
+					<div className="text-sm  p-1 text-white  w-full"><b>Role:</b>{exp.Role}</div>
+					<div className="text-sm  p-1 text-white  w-full"><b>Desc:</b>{exp.desc}</div>
 				</div>
 				</div>
 				
