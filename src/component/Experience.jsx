@@ -11,13 +11,13 @@ function Experience() {
 				}}
 				data-aos="zoom-in"
 			>
-				<div className="text-5xl p-4 m-2 text-white font-bold">{content.Experience.title}</div>
+				<div className="text-5xl p-4 m-2 text-white font-bold"> {content.Experience.title}</div>
 				<div className="text-lg p-2 w-3/5 text-white text-center">{content.Experience.desc}</div>
 				<div className="flex w-2/5 flex-row p-2 m-1">
 				{content.Experience.company.map((exp,indx)=>
 				
 				<div
-					className="border-rounded  border-2 w-4/6 h-6/6 p-2 m-1  border-green-700 "
+					className="border-rounded  border-2 w-4/5 h-5/5 sm:w-full p-2 m-1  border-green-700 "
 					data-aos="flip-left"
 					style={{
 						backgroundImage:

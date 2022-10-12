@@ -61,7 +61,7 @@ export default function Contact() {
 					minHeight: "50vh",
 					background: "#091C29",
 				}}
-				className="w-full md:w-4/5 md:rounded-xl shadow-2xl flex md:flex-row flex-col-reverse justify-around items-center"
+				className="w-full md:w-4/5 md:rounded-xl shadow-2xl flex md:flex-row flex-col justify-around items-center"
 				id="contact"
 			>
 				<LazyLoadImage

@@ -26,7 +26,7 @@ export default function Stack() {
 			<p className="w-1112 md:max-w-xl p-1 text-xl text-center mt-10">
 				{content.stack.desc}
 			</p>
-			<div className="w-3/5 h-3/5 ">
+			<div className="w-3/5 h-3/5 md:w-5/5 h-5/5 sm:display: block w-full">
 			
 				<div
 					id="carouselExampleIndicators"
